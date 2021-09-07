@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "protos/labstatmsg";
+package labstatmsg;
+
+service LabStats {
+  rpc Stats(MachineState) returns (Empty) {}
+}
+
+message MachineState {
+  string name = 1;
+}
+
+message Empty {
+}
