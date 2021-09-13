@@ -1,3 +1,3 @@
-# tstat
+# LabStats 
 
-Raspberry pi thermostat in golang
+Stats Gathering Utility for HomeLabs
